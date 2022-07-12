@@ -1,0 +1,67 @@
+// for watch and continue the ts compile works
+    ** tsc app.ts --w **
+
+// to insilize the tsc configure file 
+    **tsc --init**
+// and in terminal write
+    **tsc** --> this one comples all the ts files
+
+
+TS - CONFIGUREATION
+1.exclude --> array inside files are not compiled
+1. include --> array inside files only compiled
+
+        <--- COMPLIER OPTIONS ---->
+1.target = "es6"
+2.lib["dom","es6","dom.iterable","scripthost"]  // default set of target already
+
+3.sourceMap = true  // its helps the debug
+4.outDir="./dist"  --> inside this folder all compiled js files are stored
+5.rootDir = "./src" --> inside this folder only ts files are going to compile
+6.removeComments = true ---> remove the commets in compile js file 
+7.noEmitOnError: true  // this feature doesn't allows to create js files if ts file as an noEmitOnError
+
+// code quality OPTIONS
+8.noUnusedLocals:true   // avoid un used varibles
+9.noUnusedParameters:true  // avoid un use params
+10.noImplicitReturns:true   // return all type condition
+
+
+        <------- Class and inheritance module --------->
+1.Object oriented programing (OOP)
+    - Work with (real-life)Entities in your code
+        - ShopingList,Product,ShopingCart 
+
+-private  and public key word in class
+- readonly key word it not alow the chage the feild
+
+-private key assigned variable not acces outside the class and not acess the exceds class
+-protected key unlike private we can acces any where in inheritance class but not outside class
+- static property not acces inside the class methodes & it can acces without using of new key word
+
+//private constructor
+use the static methode and here we not use new keyword
+1.what is abstract class
+2.what is private and public
+3.what is idea behond singleton class  // you only ever have one instance of a singleton class
+4.what is static methode
+5.what is the idea bheaind 'inheritance' //it allows to share some common functionalities and yet create more specialized blueprints
+
+
+    <-----------------------Interface ---------------------->
+interface keyword only exits in typeScirpt not in js
+it allows as Object structure
+Interfaces describe objects (or function types) but can't store/ describe arbitrary types like union types.
+
+class "implements" Interface1,Interface2 so on  // for class given like this
+
+6.what is difference interface and classes 
+    -Interfaces are a pure TS feature and can't be instantiated
+
+    <--------------------Advance Types -------------------->
+1)INTERSECTION Types.
+2)TYPE GUARDS
+3)DISCRIMINATED UNIONS
+4)TYPE CASTING
+
+
