@@ -80,4 +80,25 @@ function size(input: string | number) {
 8.in Which casses type casting helpfull?
     -You want to inform TS that a certain value is of a specific type.
 
-9.
+      <----------------------- Generic ---------------------->
+WHAT?
+GENERIC FUCTIONS & Class
+GENERIC CONSTRAINTS
+SPECIAL TYPESCRIPT TYPES
+
+9.When can "Generics" come in very handy?
+    -Generics help you create data structures that work together or wrap values of a broad variety of types (e.g. an array that can hold any type of data).
+
+10.Would the following usage of a generic type make sense?
+    const data = extractData<string>(user, 'userId');
+ -Yes, extractData() probalbly returns different data based on the arguments your provide
+
+11.
+What's the idea behind constraints (when talking about generics)?
+    -Constraints allow you to narrow down the concrete types that may be  used in generic funcion etc.
+
+
+
+
+
+
