@@ -98,7 +98,13 @@ What's the idea behind constraints (when talking about generics)?
     -Constraints allow you to narrow down the concrete types that may be  used in generic funcion etc.
 
 
+        <----------------------- Decorators ----------------------->
+#Decorators are the feature is most important on meta-programing
 
+- buttom up decorators executing 
+
+1)methode decorators
+2)
 
 
 
