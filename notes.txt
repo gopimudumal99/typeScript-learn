@@ -63,5 +63,21 @@ class "implements" Interface1,Interface2 so on  // for class given like this
 2)TYPE GUARDS
 3)DISCRIMINATED UNIONS
 4)TYPE CASTING
+5)Optional chaining ?
+6)
 
 
+7.what is type GUARD?
+    -With type guards you avoid runtime errors by checking types before you try to do something with the values.
+ex:
+function size(input: string | number) {
+  if (typeof input === 'string') {
+    return input.length;
+  }
+  return input;
+}
+
+8.in Which casses type casting helpfull?
+    -You want to inform TS that a certain value is of a specific type.
+
+9.
